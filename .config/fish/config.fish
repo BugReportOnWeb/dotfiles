@@ -3,7 +3,7 @@ if status is-interactive
     figlet -t "$USER @ $hostname" | lolcat                          # My loginame and hostname just to let the fam know
     echo "----------------------------------------------" | lolcat  # Breaks the line piped to lolcat (just colorful)
     fortune | cowsay -e ^^; echo ""                                 # Run fortune and pipe it to cowsay
-    #neofetch                                                       # Run neofetch when term starts 
+    #pfetch                                                         # Run neofetch when term starts 
     
     # Set either default Emacs mode of vi mode
     function fish_user_key_bindings
