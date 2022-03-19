@@ -1,0 +1,47 @@
+[Configuration]
+# Default BackgroundDarkness=0.86000
+BackgroundDarkness=0.8
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=FALSE
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBellUrgent=FALSE
+MiscBordersDefault=TRUE
+# Can be either TRUE or FALSE (the default)
+MiscCursorBlinks=TRUE
+# This can be either TERMINAL_CURSOR_SHAPE_BLOCK (the default), TERMINAL_CURSOR_SHAPE_IBEAM or TERMINAL_CURSOR_SHAPE_UNDERLINE.
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_UNDERLINE
+MiscDefaultGeometry=100x30
+MiscInheritGeometry=FALSE
+MiscMenubarDefault=FALSE
+MiscMouseAutohide=FALSE
+MiscMouseWheelZoom=TRUE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscCycleTabs=TRUE
+MiscTabCloseButtons=TRUE
+MiscTabCloseMiddleClick=TRUE
+MiscTabPosition=GTK_POS_TOP
+MiscHighlightUrls=TRUE
+MiscMiddleClickOpensUri=FALSE
+MiscCopyOnSelect=FALSE
+MiscShowRelaunchDialog=TRUE
+MiscRewrapOnResize=TRUE
+MiscUseShiftArrowsToScroll=FALSE
+MiscSlimTabs=TRUE
+MiscNewTabAdjacent=FALSE
+ColorForeground=#e3e3ea
+ColorBackground=#08052b
+ScrollingUnlimited=TRUE
+TitleMode=TERMINAL_TITLE_REPLACE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+TextBlinkMode=TERMINAL_TEXT_BLINK_MODE_FOCUSED
+FontName=Source Code Pro 10
+ColorCursorForeground=#FFFFFF
+ColorCursor=#ff7f7f
+ColorCursorUseDefault=FALSE
+ColorBold=#7fbaff
+# ColorBoldIsBright=FALSE
+ColorBoldIsBright=TRUE
+TabActivityColor=#47B35D
