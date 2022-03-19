@@ -1,7 +1,7 @@
 app=gimp-2.10
 last_user=
 last_extension=png
-screenshot_dir=file:/home/dev/Pictures
+screenshot_dir=file:/home/dev/Pictures/Extras
 enable_imgur_upload=true
 action=1
 delay=0
