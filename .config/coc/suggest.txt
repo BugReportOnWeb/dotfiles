@@ -1,3 +1,6 @@
+for|for|clangd
+iost|iostream>|clangd
+inclu|include|clangd
 for|for|sh
 for|fortune|sh
 if|if|sh
