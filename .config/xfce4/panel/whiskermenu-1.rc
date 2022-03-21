@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=telegramdesktop.desktop,spotify.desktop,eos-apps-info.desktop,nm-connection-editor.desktop,welcome.desktop,discord.desktop,thunar-volman-settings.desktop,pavucontrol.desktop,firefox.desktop,xfce4-terminal-emulator.desktop
+recent=xfce-display-settings.desktop,stoken-gui.desktop,pavucontrol.desktop,spotify.desktop,telegramdesktop.desktop,eos-apps-info.desktop,nm-connection-editor.desktop,welcome.desktop,discord.desktop,thunar-volman-settings.desktop
 button-icon=org.xfce.panel.whiskermenu
 button-single-row=false
 show-button-title=false
