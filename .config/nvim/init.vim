@@ -14,7 +14,7 @@ set wildmode=longest,list       " set bask-like tab completions
 " set cc=80                     " set an 80 column border for good coding style
 filetype plugin indent on       " allow auto-indenting depending on file type
 syntax on                       " syntax highlghting
-set mouse=a                     " enable mouse click
+" set mouse=a                     " enable mouse click
 set clipboard=unnamedplus       " using system clipboard
 filetype plugin on
 set cursorline                  " highlight current cursorline
@@ -24,7 +24,7 @@ set nowrap                      " Do not wrap lines
 " set noswapfile                " disable creating swap file
 " set backupdir=~/.cache/vim    " Directory to store backup file
 
-" plugins
+" Plugins ======= {{{
 call plug#begin("~/.vim/plugged")
     Plug 'dracula/vim'                                              " Dark (Dracula) theme for nvim
     Plug 'ryanoasis/vim-devicons'                                   " Adds icond to Vim Plugins
@@ -43,7 +43,8 @@ call plug#begin("~/.vim/plugged")
     Plug 'tpope/vim-commentary'                                     " Comment stuff out
     Plug 'cohama/lexima.vim'                                        " Auto close parentheses and repeat by dot dot dot...
     "Plug 'neovim/nvim-lspconfig'                                   " Quickstart configuration for the Nvim LSP client
-    "Plug 'glepnir/lspsaga.nvim'                                    " neovim lsp plugin
+    "Plug 'glepnir/lspsaga.nvim'                                    " Neovim lsp plugin
+    Plug 'vimwiki/vimwiki' 
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'nvim-lua/completion-nvim'
     Plug 'nvim-lua/popup.nvim'
@@ -51,6 +52,7 @@ call plug#begin("~/.vim/plugged")
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'kyazdani42/nvim-web-devicons'
 call plug#end()
+" }}}
 
 " color schemes
 if (has("termguicolors"))
@@ -116,4 +118,8 @@ nnoremap <F3> :NERDTreeToggle<cr>
 
 " Have nerdtree ignore certain files and directories.
 let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
+
+" Prefer Markdown for vimwiki instead of VimWiki
+" let g:vimwiki_list = [{'path': '~/vimwiki/',
+"                       \ 'syntax': 'markdown', 'ext': '.md'}]
 
