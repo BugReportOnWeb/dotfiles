@@ -1,3 +1,6 @@
+doc|!DOCTYPE|html
+ht|html|html
+|!DOCTYPE|html
 we|weight2|clangd
 wei|weight2|clangd
 wei|weight1|clangd
