@@ -20,7 +20,7 @@ if status is-interactive
     alias vim='nvim'
     alias rickroll='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash' 
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-    alias asm='nasm -f elf32 main.asm -o main.o && ld -m elf_i386 main.o -o ../main/main && cd ../main && ./main && cd ../src || echo -e "Error occured"'
+    alias asm='assembly_comp'
 
     set -gx EDITOR nvim
 end
