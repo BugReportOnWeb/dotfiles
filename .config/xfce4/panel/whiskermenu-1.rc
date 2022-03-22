@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=telegramdesktop.desktop,libreoffice-startcenter.desktop,gimp.desktop,pavucontrol.desktop,spotify.desktop,figma-linux.desktop,discord.desktop,xfce-display-settings.desktop,stoken-gui.desktop,eos-apps-info.desktop
+recent=pavucontrol.desktop,telegramdesktop.desktop,libreoffice-startcenter.desktop,gimp.desktop,spotify.desktop,figma-linux.desktop,discord.desktop,xfce-display-settings.desktop,stoken-gui.desktop,eos-apps-info.desktop
 button-icon=org.xfce.panel.whiskermenu
 button-single-row=false
 show-button-title=false
