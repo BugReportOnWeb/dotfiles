@@ -1,4 +1,4 @@
-auto-reload yes
+#auto-reload yes
 reload-time 120
 reload-threads 100
 
