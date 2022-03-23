@@ -15,7 +15,6 @@ if status is-interactive
     alias update='sudo pacman -Syu && yay -Sua'
     alias fs='file_size'
     alias mkf='make_file'
-    # alias fs='function fs; set file_size (du -h $argv | awk \'{print $1}\' | sed \'s/\.[0-9]//g\'); set file_name (du -h $argv | awk \'{print $2}\'); echo $file_name is of $file_size; end; fs'
     alias nfetch='neofetch'
     alias vim='nvim'
     alias rickroll='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash' 
