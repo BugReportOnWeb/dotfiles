@@ -71,6 +71,8 @@
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="join?action=join&amp;confno=93870344831&amp;pwd=OCsvM3FaeUs4MmFtWDQxWGxTOUdMUT09&amp;tk=Qo6wEcaz6cL3WSbc3_1zKtv9nxeDPyEtDO_d42OoZDo.DQMAAAAV2xvKfxZkbzVLVEpfcVJRZU01cXMtWFBFbS1BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&amp;confid=dXRpZD1VVElEXzRmZDZmMjU1YzM2YTRkZTY5ODhhMjNiNjFjMjg4ZTI3JnVzcz1FRHRGcU5Xa2Q4ZzZMUWMybEhuZXBscjdqeTVuYVQtZXQzUUxDeTNESEZSdU9uUVVmX0RBX2J6Z19FMktXQWlrTmhqeVdrS2VMRmJZblZGeURRLkJDV2ZfZXVUYVdxSktGSlomdGlkPThiMWE5NDQwMDE3MzQ0MTc4YzdkNWJiZjA2ZjBiZGI5&amp;browser=firefox"/>
+        <value type="string" value="join?action=join&amp;confno=93870344831&amp;pwd=OCsvM3FaeUs4MmFtWDQxWGxTOUdMUT09&amp;tk=Qo6wEcaz6cL3WSbc3_1zKtv9nxeDPyEtDO_d42OoZDo.DQMAAAAV2xvKfxZkbzVLVEpfcVJRZU01cXMtWFBFbS1BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&amp;confid=dXRpZD1VVElEX2I3ZDE0NDA1NDFlNzRkZThiNGM1YmE5ZmViZjQwMDc1JnVzcz11XzRxbENBYkRxRDc4a3VHOUZlTzdiZ2g2X0Y0S3ZzTG5MY0h2NTFnVndyQnNJdkc2STdLVXVvRm9rek1malBMS3ByVkZzY3M1SXhnR2xkakF3LlU4eTRfWWlTT0pyYVRkLWsmdGlkPThiMWE5NDQwMDE3MzQ0MTc4YzdkNWJiZjA2ZjBiZGI5&amp;browser=firefox"/>
         <value type="string" value="zoom"/>
         <value type="string" value="qTox"/>
         <value type="string" value="vlc"/>
@@ -81,7 +83,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance3018;chromium.instance37766;firefox.instance10176;firefox.instance1096;firefox.instance10990;firefox.instance11116;firefox.instance11231;firefox.instance1183;firefox.instance11842;firefox.instance1185;firefox.instance11868;firefox.instance1345;firefox.instance13668;firefox.instance14063;firefox.instance1416;firefox.instance1490;firefox.instance1582;firefox.instance16294;firefox.instance1916;firefox.instance2414;firefox.instance2470;firefox.instance2472;firefox.instance2750;firefox.instance300271;firefox.instance303965;firefox.instance3530;firefox.instance45470;firefox.instance4795;firefox.instance5166;firefox.instance6016;firefox.instance6479;firefox.instance6486;firefox.instance8456;firefox.instance922;firefox.instance9443;firefox.instance9962;spotify;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance3018;chromium.instance37766;firefox.instance10176;firefox.instance1096;firefox.instance10990;firefox.instance11116;firefox.instance11231;firefox.instance1183;firefox.instance11842;firefox.instance1185;firefox.instance11868;firefox.instance1345;firefox.instance13668;firefox.instance14063;firefox.instance1416;firefox.instance1461;firefox.instance1490;firefox.instance1582;firefox.instance16294;firefox.instance1916;firefox.instance2414;firefox.instance2470;firefox.instance2472;firefox.instance2750;firefox.instance300271;firefox.instance303965;firefox.instance3530;firefox.instance45470;firefox.instance4795;firefox.instance5166;firefox.instance6016;firefox.instance6479;firefox.instance6486;firefox.instance8456;firefox.instance922;firefox.instance9443;firefox.instance9962;spotify;vlc"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
