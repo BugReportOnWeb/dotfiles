@@ -21,6 +21,8 @@ if status is-interactive
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
     alias asm='assembly_comp'
     alias iwctl='start_iwd'
+    alias wiki='vim -c VimwikiIndex'
+    alias todo='vim ~/vimwiki/Tasks.wiki'
 
     set -gx EDITOR nvim
 end
