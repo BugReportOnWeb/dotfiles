@@ -23,6 +23,7 @@ if status is-interactive
     alias iwctl='start_iwd'
     alias wiki='vim -c VimwikiIndex'
     alias todo='vim ~/vimwiki/Tasks.wiki'
+    alias mix='pulsemixer'
 
     set -gx EDITOR nvim
 end
