@@ -20,7 +20,7 @@ if status is-interactive
     alias rickroll='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash' 
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
     alias asm='assembly_comp'
-    alias iwctl='start_iwd'
+    alias wctl='start_iwd'
     alias wiki='vim -c VimwikiIndex'
     alias todo='vim ~/vimwiki/Tasks.wiki'
     alias mix='pulsemixer'
