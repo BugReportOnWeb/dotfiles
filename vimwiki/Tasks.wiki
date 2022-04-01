@@ -70,3 +70,6 @@
 
 *Date: 31-Mar-2022*
 * [ ] _Probably won't be able to do anything on this day too :(_
+
+*Date: 1-Apr-2022*
+* [ ] Try to cover up all the remaining task from the previous days.
