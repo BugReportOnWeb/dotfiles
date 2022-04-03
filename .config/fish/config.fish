@@ -24,6 +24,7 @@ if status is-interactive
     alias wiki='vim -c VimwikiIndex'
     alias todo='vim ~/vimwiki/Tasks.wiki'
     alias mix='pulsemixer'
+    alias sl='sl | lolcat'
 
     set -gx EDITOR nvim
 end
