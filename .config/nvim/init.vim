@@ -1,19 +1,34 @@
+" Fundamentals "{{{
+" ------------------------------------------------------
+
+" set script encoding
+scriptencoding utf-8
+" stop loading config if it's on tiny or small
+if !1 | finish | endif
+
 set nocompatible                " disable compatiblity to old-time vi
+set number                      " add line numbers
+syntax enable                   " syntax highlghting
+set encoding=utf-8
+set title
+set autoindent                  " indent a new line the same amount as the line just typed
+set background=dark
+" set nobackup
+set hlsearch                    " highlight search
+set scrolloff=10
+set expandtab                   " converts tabs to white space
+set shell=fish
+
 set showmatch                   " show matching
 set ignorecase                  " case insensitive
 set mouse=v                     " middle-click paste with
-set hlsearch                    " highlight search
 set incsearch                   " incremental search
 set tabstop=4                   " number of colums occupied by a tab
 set softtabstop=4               " see multiple spaces as tabstops so <BS> does the right thing
-set expandtab                   " converts tabs to white space
 set shiftwidth=4                " width for autoindents
-set autoindent                  " indent a new line the same amount as the line just typed
-set number                      " add line numbers
 set wildmode=longest,list       " set bask-like tab completions
 " set cc=80                     " set an 80 column border for good coding style
 filetype plugin indent on       " allow auto-indenting depending on file type
-syntax on                       " syntax highlghting
 " set mouse=a                     " enable mouse click
 set clipboard=unnamedplus       " using system clipboard
 filetype plugin on
@@ -23,6 +38,8 @@ set nowrap                      " Do not wrap lines
 " set spell                     " enable spell check (may need to download language package)
 " set noswapfile                " disable creating swap file
 " set backupdir=~/.cache/vim    " Directory to store backup file
+
+"}}}
 
 " Plugins ======= {{{
 call plug#begin("~/.vim/plugged")
