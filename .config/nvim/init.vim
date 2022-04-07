@@ -18,7 +18,7 @@ set hlsearch                    " highlight search
 set scrolloff=10
 set expandtab                   " converts tabs to white space
 set shell=fish
-
+" set cmdheight=1               " Change the height/gap between the bottom part and status bar (Usuallly the default)
 set showmatch                   " show matching
 set ignorecase                  " case insensitive
 set mouse=v                     " middle-click paste with
