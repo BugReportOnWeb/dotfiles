@@ -1,14 +1,15 @@
-# Dotfiles
-* **Rice Preview**
+<p align="center">
+    # Dotfiles
+</p>
 
+### Rice Preview
 <div align="center">
     <img src="assets/rice.png" alt="Rice">
 </div>
 
-<br>
+<hr></hr><br>
 
-* **Software and setup details**
-
+### Software and setup details
 | Software   | Name              |
 | ---------- | ----------------- |
 | OS         | EndevourOS Linux  |
