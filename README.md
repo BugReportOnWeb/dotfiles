@@ -1,7 +1,7 @@
 <div id="header" align="center">
-    <p style="font-size:2em">
+    <span style="font-size:40px">
         Dotfiles 
-    </p>
+    </span>
     <div id="badges"> 
         <img src="https://img.shields.io/github/languages/count/BugReportOnWeb/dotfiles" />
         <img src="https://img.shields.io/github/languages/top/BugReportOnWeb/dotfiles" />
