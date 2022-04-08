@@ -51,7 +51,8 @@ call plug#begin("~/.vim/plugged")
     " Plug 'preservim/nerdcommenter'                                  " Vim plugin for intensely nerdy commenting powers
     Plug 'junegunn/goyo.vim'                                        " Distration-free writing in Vim
     Plug 'vim-airline/vim-airline'                                  " Lean and mean status
-    Plug 'ap/vim-css-color'                                         " Preview colours in cource code while editing
+    " Plug 'ap/vim-css-color'                                         " Preview colours in cource code while editing (For vim)
+    Plug 'norcalli/nvim-colorizer.lua'                               " Preview colours in cource code while editing
     Plug 'mhinz/vim-startify'                                       " The fancy start screen for Vim
     Plug 'neoclide/coc.nvim', {'branch': 'release'}                 " Nodejs extension and host language servers
     Plug 'tpope/vim-fugitive'                                       " Git wrapper 
