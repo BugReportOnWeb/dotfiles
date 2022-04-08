@@ -1,4 +1,4 @@
-<h1 id="header" align="center" style="border-bottom: none">
+<h1 id="header" align="center">
     Dotfiles
     <div id="badges"> 
         <img src="https://img.shields.io/github/languages/count/BugReportOnWeb/dotfiles" />
@@ -12,14 +12,15 @@
     <img src="assets/rice.png" alt="Rice">
 </div>
 
-<hr></hr>
+<br>
 
-## Softwarr/Setup details
-| Software   | Name              |
-| ---------- | ----------------- |
-| OS         | EndevourOS Linux  |
-| DE         | Xfce              |
-| Terminal   | Alacritty         |
-| Shell      | Fish              |
-| Editor     | Neovim            |
-| IRC Client | irssi             |
+## Software/Setup details
+| Software        | Name              |
+| --------------- | ----------------- |
+| OS              | EndevourOS Linux  |
+| DE              | Xfce              |
+| Terminal        | Alacritty         |
+| Shell           | Fish              |
+| Editor          | Vim/Neovim        |
+| IRC client      | irssi             |
+| RSS feed client | Newsboat          |
