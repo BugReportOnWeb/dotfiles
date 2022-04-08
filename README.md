@@ -1,9 +1,10 @@
 <div id="header" align="center">
     <h1>Dotfiles</h1>
     <div id="badges">
-        <img src="https://img.shields.io/github/languages/count/BugReportOnWeb/dotfiles?style=for-the-badge" />
-        <img src="https://img.shields.io/github/languages/top/BugReportOnWeb/dotfiles?style=for-the-badge" />
-        <img src="https://img.shields.io/github/last-commit/BugReportOnWeb/dotfiles?style=for-the-badge" />
+    
+        <img src="https://img.shields.io/github/languages/count/BugReportOnWeb/dotfiles" />
+        <img src="https://img.shields.io/github/languages/top/BugReportOnWeb/dotfiles" />
+        <img src="https://img.shields.io/github/last-commit/BugReportOnWeb/dotfiles" />
     </div>
 </div>
 
