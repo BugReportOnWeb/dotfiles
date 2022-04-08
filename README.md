@@ -1,13 +1,11 @@
-<p align="center">
-    # Dotfiles
-</p>
+<h1 align='center'>Dotfiles</h1>
 
 ### Rice Preview
 <div align="center">
     <img src="assets/rice.png" alt="Rice">
 </div>
 
-<hr></hr><br>
+<hr></hr>
 
 ### Software and setup details
 | Software   | Name              |
