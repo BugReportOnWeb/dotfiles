@@ -61,6 +61,7 @@ call plug#begin("~/.vim/plugged")
     Plug 'cohama/lexima.vim'                                        " Auto close parentheses and repeat by dot dot dot...
     "Plug 'neovim/nvim-lspconfig'                                   " Quickstart configuration for the Nvim LSP client
     "Plug 'glepnir/lspsaga.nvim'                                    " Neovim lsp plugin
+    Plug 'shime/vim-livedown'
     Plug 'vimwiki/vimwiki' 
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'nvim-lua/completion-nvim'
@@ -132,6 +133,9 @@ endif
 " NERDTree specific mappings.
 " Map the F3 key to toggle NERDTree open and close.
 nnoremap <F3> :NERDTreeToggle<cr>
+
+" Mapping for live markdown
+nmap gm :LivedownToggle<CR>
 
 " Have nerdtree ignore certain files and directories.
 let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
