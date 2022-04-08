@@ -1,7 +1,9 @@
 # Dotfiles
 Dotfiles for my EOS/Arch setup
 
-***
+<div align="center">
+    <img src="assets/rice.png" alt="Rice">
+</div>
 
 System info from fetching tools
 ```
