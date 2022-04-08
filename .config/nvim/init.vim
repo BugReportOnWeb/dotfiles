@@ -35,6 +35,7 @@ filetype plugin on
 set cursorline                  " highlight current cursorline
 set ttyfast                     " speed up scrolling in Vim
 set nowrap                      " Do not wrap lines
+set termguicolors
 " set spell                     " enable spell check (may need to download language package)
 " set noswapfile                " disable creating swap file
 " set backupdir=~/.cache/vim    " Directory to store backup file
@@ -72,6 +73,9 @@ call plug#begin("~/.vim/plugged")
     Plug 'kyazdani42/nvim-web-devicons'
 call plug#end()
 " }}}
+
+" Setup for nvim-colorizer
+lua require'colorizer'.setup()
 
 " color schemes
 if (has("termguicolors"))
