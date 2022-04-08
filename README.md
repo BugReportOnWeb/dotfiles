@@ -14,7 +14,7 @@
     <img src="assets/rice.png" alt="Rice">
 </div>
 
-## Software and setup details
+## Softwarr/Setup details
 | Software   | Name              |
 | ---------- | ----------------- |
 | OS         | EndevourOS Linux  |
