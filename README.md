@@ -1,18 +1,18 @@
-<div id="header" align="center">
-    <span style="font-size: 2em">
-        Dotfiles 
-    </span>
+<h1 id="header" align="center" style="border-bottom: none">
+    Dotfiles
     <div id="badges"> 
         <img src="https://img.shields.io/github/languages/count/BugReportOnWeb/dotfiles" />
         <img src="https://img.shields.io/github/languages/top/BugReportOnWeb/dotfiles" />
         <img src="https://img.shields.io/github/last-commit/BugReportOnWeb/dotfiles" />
     </div>
-</div>
+</h1>
 
 ## Rice Preview
 <div align="center">
     <img src="assets/rice.png" alt="Rice">
 </div>
+
+<hr></hr>
 
 ## Softwarr/Setup details
 | Software   | Name              |
