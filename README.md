@@ -1,5 +1,5 @@
 <div id="header" align="center">
-    <span style="font-size:40px">
+    <span style="font-size: 2em">
         Dotfiles 
     </span>
     <div id="badges"> 
