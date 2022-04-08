@@ -1,17 +1,19 @@
 # Dotfiles
-Dotfiles for my EOS/Arch setup
+* **Rice Preview**
 
 <div align="center">
     <img src="assets/rice.png" alt="Rice">
 </div>
 
-System info from fetching tools
-```
-OS = EndevourOS Linux
-Host = 80E5 Lenovo G50-80
-Kernel = 5.16.14-arch1-1 x86_64
-Pkgs = 1035 (pacman)
-DE = xfce 4.16
-Shell = /bin/fish
-Term = alacritty
-```
+<br>
+
+* **Software and setup details**
+
+| Software   | Name              |
+| ---------- | ----------------- |
+| OS         | EndevourOS Linux  |
+| DE         | Xfce              |
+| Terminal   | Alacritty         |
+| Shell      | Fish              |
+| Editor     | Neovim            |
+| IRC Client | irssi             |
