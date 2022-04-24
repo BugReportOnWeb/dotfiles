@@ -39,6 +39,7 @@ set termguicolors
 " set spell                     " enable spell check (may need to download language package)
 " set noswapfile                " disable creating swap file
 " set backupdir=~/.cache/vim    " Directory to store backup file
+set guicursor=                  " Disable cursor change when entering nvim
 
 "}}}
 
