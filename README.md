@@ -19,6 +19,7 @@
 | --------------- | ----------------- |
 | OS              | EndevourOS Linux  |
 | DE              | Xfce              |
+| WM              | i3-gaps           |
 | Terminal        | Alacritty         |
 | Shell           | Fish              |
 | Editor          | Vim/Neovim        |
