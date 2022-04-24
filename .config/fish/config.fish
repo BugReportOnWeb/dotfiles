@@ -26,6 +26,7 @@ if status is-interactive
     alias mix='pulsemixer'
     alias sl='sl | lolcat'
     alias out='comp_check'
+    alias gitcp='pass -c GitHub/token'
 
     set -gx EDITOR nvim
 end
