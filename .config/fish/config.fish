@@ -1,7 +1,7 @@
 if status is-interactive
     set fish_greeting                                               # Supresses fish's intro message
-    figlet -t "$USER @ $hostname" | lolcat                          # My loginame and hostname just to let the fam know
-    echo "----------------------------------------------" | lolcat  # Breaks the line piped to lolcat (just colorful)
+    #figlet -t "$USER @ $hostname" | lolcat                          # My loginame and hostname just to let the fam know
+    #echo "----------------------------------------------" | lolcat  # Breaks the line piped to lolcat (just colorful)
     fortune | cowsay -e ^^; echo ""                                 # Run fortune and pipe it to cowsay
     #pfetch                                                         # Run neofetch when term starts 
     
