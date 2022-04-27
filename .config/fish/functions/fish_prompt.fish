@@ -45,7 +45,7 @@ function fish_prompt --description 'Write out the prompt'
     end
 
     # PWD
-    set_color $color_cwd
+    set_color -o $color_cwd
     echo -n (prompt_pwd)
     set_color normal
 
@@ -56,6 +56,7 @@ function fish_prompt --description 'Write out the prompt'
     set -l prompt_status (__fish_print_pipestatus "[" "] " "|" "$status_color" "$statusb_color" $last_pipestatus)
     echo -n $prompt_status
     #echo -n "$suffix "
+    #echo -n (set_color red)'>'(set_color yellow)'>'(set_color green)'> '
     echo -n (set_color red)'❯'(set_color yellow)'❯'(set_color green)'❯ '
 
     set_color normal
