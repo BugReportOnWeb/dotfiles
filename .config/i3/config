@@ -48,7 +48,7 @@ workspace_layout default
 ##############################
 
 #border indicator on windows:
-new_window pixel 1
+new_window pixel 2
 
 # thin borders
 # hide_edge_borders both
@@ -460,11 +460,11 @@ set $mediumgrey		#8b8b8b
 set $yellowbrown	#e1b700
 
 # define colors for windows:
-#class		        	border		bground		text		indicator	child_border
-client.focused		    $lightblue	$darkblue	$white		$purple		$mediumgrey
-client.unfocused	    $darkblue	$darkblue	$grey		$purple		$darkgrey
-client.focused_inactive	$darkblue	$darkblue	$grey		$purple		$black
-client.urgent		    $urgentred	$urgentred	$white		$purple		$yellowbrown
+#class		        	border		bground		text		indicator	    child_border
+client.focused		    $lightblue	$darkblue	$white		$purple		    $purple
+client.unfocused	    $darkblue	$darkblue	$grey		$purple		    $mediumgrey
+client.focused_inactive	$darkblue	$darkblue	$grey		$mediumgrey		$mediumgrey
+client.urgent		    $urgentred	$urgentred	$white		$purple		    $yellowbrown
 
 ############################################
 # bar settings (input comes from i3blocks) #
