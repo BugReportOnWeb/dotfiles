@@ -29,5 +29,6 @@ if status is-interactive
     alias gitcp='pass -c GitHub/token'
 
     set -gx EDITOR nvim
+    set --export PATH $HOME/.cargo/bin $PATH
 end
 
