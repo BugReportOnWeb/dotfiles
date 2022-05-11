@@ -151,13 +151,13 @@ mode "resize" {
         bindsym ntilde resize grow width 10 px or 10 ppt
 
  # same bindings, but for the arrow keys
-	bindsym Left resize shrink width 10 px or 10 ppt
+	    bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
  # back to normal: Enter or Escape
-	bindsym Return mode "default"
+	    bindsym Return mode "default"
         bindsym Escape mode "default"
 }
 
@@ -462,7 +462,7 @@ set $yellowbrown	#e1b700
 # define colors for windows:
 #class		        	border		bground		text		indicator	    child_border
 client.focused		    $lightblue	$darkblue	$white		$purple		    $purple
-client.unfocused	    $darkblue	$darkblue	$grey		$purple		    $mediumgrey
+client.unfocused	    $darkblue	$darkblue	$grey		$mediumgrey		    $mediumgrey
 client.focused_inactive	$darkblue	$darkblue	$grey		$mediumgrey		$mediumgrey
 client.urgent		    $urgentred	$urgentred	$white		$purple		    $yellowbrown
 
