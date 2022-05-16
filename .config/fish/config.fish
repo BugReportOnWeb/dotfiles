@@ -27,6 +27,7 @@ if status is-interactive
     alias sl='sl | lolcat'
     alias out='comp_check'
     alias gitcp='pass -c GitHub/token'
+    alias class='~/Development/shellscripting/auto/main.sh'
 
     set -gx EDITOR nvim
     set --export PATH $HOME/.cargo/bin $PATH
