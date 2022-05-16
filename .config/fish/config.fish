@@ -16,7 +16,6 @@ if status is-interactive
     alias fs='file_size'
     alias mkf='make_file'
     alias nfetch='neofetch'
-    # alias vim='nvim'
     alias rickroll='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash' 
     alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
     alias asm='assembly_comp'
