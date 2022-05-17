@@ -309,7 +309,9 @@ set $ws10 "10"
 # where you have to replace VGA-0/HDMI-0 with the names for your displays
 # you can get from xrandr command
 #workspace $ws1 output VGA-0
+workspace $ws1 output HDMI1
 #workspace $ws2 output VGA-0
+workspace $ws2 output eDP1
 #workspace $ws3 output HDMI-0
 #workspace $ws4 output HDMI-0
 #workspace $ws5 output HDMI-0
