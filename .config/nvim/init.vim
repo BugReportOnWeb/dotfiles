@@ -33,16 +33,27 @@ set guicursor=              " Disable cursor change when entering nvim
 
 " Plugin Section ---------------
 call plug#begin("~/.vim/plugged")
-    Plug 'tpope/vim-commentary'         " Comment stuff out
-    Plug 'scrooloose/nerdtree'          " A tree explorer plugin
-    Plug 'ryanoasis/vim-devicons'       " Adds icons
-    Plug 'mhinz/vim-startify'           " The fancy start screen
-    Plug 'vim-airline/vim-airline'      " Lean and mean status
-    Plug 'norcalli/nvim-colorizer.lua'  " Preview colours
-    Plug 'tpope/vim-surround'           " Surrounding with appilied character
-    Plug 'cohama/lexima.vim'            " Auto close parentheses
-    Plug 'shime/vim-livedown'           " live markdown preview
+    Plug 'tpope/vim-commentary'             " Comment stuff out
+    Plug 'scrooloose/nerdtree'              " A tree explorer plugin
+    Plug 'ryanoasis/vim-devicons'           " Adds icons
+    Plug 'mhinz/vim-startify'               " The fancy start screen
+    Plug 'vim-airline/vim-airline'          " Lean and mean status
+    Plug 'norcalli/nvim-colorizer.lua'      " Preview colours
+    Plug 'tpope/vim-surround'               " Surrounding with appilied character
+    Plug 'cohama/lexima.vim'                " Auto close parentheses
+    Plug 'shime/vim-livedown'               " Live markdown preview
+
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}     " Incremental parsing system
 call plug#end()
+
+" Treesitter lua setup
+lua << EOF
+require'nvim-treesitter.configs'.setup {
+  highlight = {
+    enable = true,
+  },
+}
+EOF
 
 " Color schemes ---------------
 if (has("termguicolors"))
