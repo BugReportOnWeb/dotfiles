@@ -21,6 +21,7 @@ set expandtab               " Converts tabs to white space
 set shiftwidth=4            " Width for autoindents
 set autoindent              " Indent a new line the same amount as the line just typed
 set number                  " Add line numbers
+set relativenumber          " Add line numbers but relative present position
 set wildmode=longest,list   " Get bash-like tab completions
 filetype plugin indent on   " Allow auto-indenting depending on file type
 syntax on                   " Syntax highlighting
@@ -42,16 +43,15 @@ call plug#begin("~/.vim/plugged")
     Plug 'tpope/vim-surround'               " Surrounding with appilied character
     Plug 'cohama/lexima.vim'                " Auto close parentheses
     Plug 'shime/vim-livedown'               " Live markdown preview
-
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}     " Incremental parsing system
 call plug#end()
 
-" Treesitter lua setup
-lua << EOF
+lua <<EOF
+-- Treesitter specific config
 require'nvim-treesitter.configs'.setup {
-  highlight = {
-    enable = true,
-  },
+    -- highlight = {
+    --     enable = true,
+    -- }
 }
 EOF
 
