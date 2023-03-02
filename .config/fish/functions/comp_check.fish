@@ -31,6 +31,13 @@ function comp_check
                 mkdir rust_dir && mv $argv rust_dir && cd rust_dir
                 rustc $argv && ./$NAME
             end
+        case java
+            if test -d ../java_dir
+                javac $argv && java $NAME
+            else
+                mkdir java_dir && mv $argv java_dir && cd java_dir
+                javac $argv && java $NAME
+            end
         case '*'
             return 1
     end
