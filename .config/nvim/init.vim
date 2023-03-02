@@ -43,14 +43,18 @@ call plug#begin("~/.vim/plugged")
     Plug 'tpope/vim-surround'               " Surrounding with appilied character
     Plug 'cohama/lexima.vim'                " Auto close parentheses
     Plug 'shime/vim-livedown'               " Live markdown preview
+    " Plug 'junegunn/vim-github-dashboard'    " Coc stuff idk
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}     " Incremental parsing system
+    Plug 'lervag/vimtex'                    " LaTeX stuff
 call plug#end()
 
 lua <<EOF
 -- Treesitter specific config
 require'nvim-treesitter.configs'.setup {
+    ensure_installed = { "rust", "java", "cpp" },
     -- highlight = {
-    --     enable = true,
+    --    enable = true,
     -- }
 }
 EOF
@@ -99,6 +103,9 @@ nnoremap gf :vert winc f<cr>
 :nnoremap <silent> yf :let @+=expand('%:p')<CR>
 " Copies pwd to clipboard: command yd
 :nnoremap <silent> yd :let @+=expand('%:p:h')<CR>
+
+" Default viewer for LaTeX file
+let g:vimtex_view_method = 'zathura'
 
 " Vim jump to the last position when reopening a file
 if has("autocmd")
