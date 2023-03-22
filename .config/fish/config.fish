@@ -7,9 +7,11 @@ if status is-interactive
     
     # Set either default Emacs mode of vi mode
     function fish_user_key_bindings
-        fish_default_key_bindings
+        # fish_default_key_bindings
         # fish_vi_key_bindings
     end
+
+    fish_vi_cursor
 
     # ALIASES #
     alias update='sudo pacman -Syu && yay -Sua'
@@ -27,6 +29,7 @@ if status is-interactive
     alias out='comp_check'
     alias gitcp='pass -c GitHub/token'
     alias class='~/Development/shellscripting/auto/main.sh'
+    alias clr='. /usr/local/bin/clear_react'
 
     set -gx EDITOR nvim
     set --export PATH $HOME/.cargo/bin $PATH
