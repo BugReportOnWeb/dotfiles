@@ -47,6 +47,9 @@ call plug#begin("~/.vim/plugged")
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}     " Incremental parsing system
     Plug 'lervag/vimtex'                    " LaTeX stuff
+    Plug 'othree/html5.vim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'evanleck/vim-svelte', {'branch': 'main'}
 call plug#end()
 
 lua <<EOF
