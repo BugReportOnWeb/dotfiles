@@ -34,22 +34,22 @@ set guicursor=              " Disable cursor change when entering nvim
 
 " Plugin Section ---------------
 call plug#begin("~/.vim/plugged")
-    Plug 'tpope/vim-commentary'             " Comment stuff out
-    Plug 'scrooloose/nerdtree'              " A tree explorer plugin
-    Plug 'ryanoasis/vim-devicons'           " Adds icons
-    Plug 'mhinz/vim-startify'               " The fancy start screen
-    Plug 'vim-airline/vim-airline'          " Lean and mean status
-    Plug 'norcalli/nvim-colorizer.lua'      " Preview colours
-    Plug 'tpope/vim-surround'               " Surrounding with appilied character
-    Plug 'cohama/lexima.vim'                " Auto close parentheses
-    Plug 'shime/vim-livedown'               " Live markdown preview
-    " Plug 'junegunn/vim-github-dashboard'    " Coc stuff idk
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'tpope/vim-commentary'                                     " Comment stuff out
+    Plug 'scrooloose/nerdtree'                                      " A tree explorer plugin
+    Plug 'ryanoasis/vim-devicons'                                   " Adds icons
+    Plug 'mhinz/vim-startify'                                       " The fancy start screen
+    Plug 'vim-airline/vim-airline'                                  " Lean and mean status
+    Plug 'norcalli/nvim-colorizer.lua'                              " Preview colours
+    Plug 'tpope/vim-surround'                                       " Surrounding with appilied character
+    Plug 'cohama/lexima.vim'                                        " Auto close parentheses
+    Plug 'shime/vim-livedown'                                       " Live markdown preview
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}     " Incremental parsing system
-    Plug 'lervag/vimtex'                    " LaTeX stuff
+    Plug 'lervag/vimtex'                                            " LaTeX stuff
     Plug 'othree/html5.vim'
     Plug 'pangloss/vim-javascript'
     Plug 'evanleck/vim-svelte', {'branch': 'main'}
+    " Plug 'neovim/nvim-lspconfig'                                    " Configuration for common language server
+    " Plug 'nvim-lua/completion-nvim'                                 " Auto completion
 call plug#end()
 
 lua <<EOF
@@ -121,6 +121,10 @@ nnoremap <F3> :NERDTreeToggle<cr>
 
 " Have nerdtree ignore certain files and directories.
 let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
+
+" NerdTree specific files
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 " Mapping for live markdown
 nmap gm :LivedownToggle<CR>
