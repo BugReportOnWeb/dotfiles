@@ -48,6 +48,7 @@ call plug#begin("~/.vim/plugged")
     Plug 'othree/html5.vim'
     Plug 'pangloss/vim-javascript'
     Plug 'evanleck/vim-svelte', {'branch': 'main'}
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Plug 'neovim/nvim-lspconfig'                                    " Configuration for common language server
     " Plug 'nvim-lua/completion-nvim'                                 " Auto completion
 call plug#end()
